@@ -1,0 +1,12 @@
+n=int(input("Enter number"))
+b=int(input("Enter base"))
+result=[]
+while n>0:
+    i = 0
+    num= n%b
+    result.append(num)
+    n=n//b
+    i+=1
+result.reverse()
+print(result)
+    
