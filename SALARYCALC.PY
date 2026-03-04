@@ -17,3 +17,9 @@ netsalary = grosssalary - tax
 print("Gross salary:", int(grosssalary))
 print("Tax:", int(tax))
 print("Net salary:", int(netsalary))
+
+OUTPUT
+Enter total hours worked: 23
+Gross salary: 6100
+Tax: 305
+Net salary: 5795
